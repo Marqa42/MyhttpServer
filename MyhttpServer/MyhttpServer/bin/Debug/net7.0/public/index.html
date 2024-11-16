@@ -1,0 +1,1394 @@
+<!doctype html>
+<html lang="ru">
+<head>
+  <meta charset="utf-8" />
+  <title>Смотреть Аниме онлайн бесплатно в хорошем качестве</title>
+  <style>
+    .header{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 20px;
+    background-color: #222;
+    color: #fff;
+}
+
+.affix {
+    position: fixed;
+    z-index: 1000;
+    width: 100%;
+    top: 0;
+}
+
+@media (min-width: 992px) {
+    .d-lg-block {
+        display: block!important
+    }
+}
+
+.affix.show {
+    top: 0!important
+}
+
+*{
+    margin: 0;
+    padding: 0;
+}
+
+.container{
+    padding-right: 15px;
+    padding-left: 15px;
+    margin-right: auto;
+    margin-left: auto;
+    width: 100%;
+}
+
+.navbar .navbar-nav .nav-link{
+    color: #fff;
+    padding: 4px;
+    border-radius: 3px;
+    max-width: 1.5rem;
+    max-height: 1.5rem;
+    width: 1.5rem;
+    height: 1.5rem
+}
+
+.nav-link,.navbar {
+    padding: .5rem 1rem
+}
+
+.d-flex {
+    display: flex!important
+}
+
+.pb-2,.py-2 {
+    padding-bottom: .5rem!important
+}
+
+.pt-2,.py-2 {
+    padding-top: .5rem!important
+}
+
+
+.nav-link.disabled {
+    color: #868e96
+}
+
+.navbar-expand .navbar-nav .nav-link {
+    padding-right: .5rem;
+    padding-left: .5rem
+}
+
+small {
+    font-size: 80%
+}
+
+.card-header {
+    padding: .75rem 1rem;
+    background-color: rgba(0,0,0,.03)
+}
+
+.border-bottom-0 {
+    border-bottom: 0!important
+}
+
+.content {
+    background-color: #fff;
+    border: 1px solid rgba(0,0,0,.125)
+}
+
+.pr-3,.px-3 {
+    padding-right: 1rem!important
+}
+
+.pb-3,.py-3 {
+    padding-bottom: 1rem!important
+}
+
+.mb-0,.my-0 {
+    margin-bottom: 0!important
+}
+
+.mt-3{
+    margin-top: 1rem !important;
+}
+
+.col,.col-1,.col-10,.col-11,.col-12,.col-2,.col-3,.col-4,.col-5,.col-6,.col-7,.col-8,.col-9,.col-auto,.col-lg,.col-lg-1,.col-lg-10,.col-lg-11,.col-lg-12,.col-lg-2,.col-lg-3,.col-lg-4,.col-lg-5,.col-lg-6,.col-lg-7,.col-lg-8,.col-lg-9,.col-lg-auto,.col-md,.col-md-1,.col-md-10,.col-md-11,.col-md-12,.col-md-2,.col-md-3,.col-md-4,.col-md-5,.col-md-6,.col-md-7,.col-md-8,.col-md-9,.col-md-auto,.col-sm,.col-sm-1,.col-sm-10,.col-sm-11,.col-sm-12,.col-sm-2,.col-sm-3,.col-sm-4,.col-sm-5,.col-sm-6,.col-sm-7,.col-sm-8,.col-sm-9,.col-sm-auto,.col-ul,.col-ul-1,.col-ul-10,.col-ul-11,.col-ul-12,.col-ul-2,.col-ul-3,.col-ul-4,.col-ul-5,.col-ul-6,.col-ul-7,.col-ul-8,.col-ul-9,.col-ul-auto,.col-xl,.col-xl-1,.col-xl-10,.col-xl-11,.col-xl-12,.col-xl-2,.col-xl-3,.col-xl-4,.col-xl-5,.col-xl-6,.col-xl-7,.col-xl-8,.col-xl-9,.col-xl-auto {
+    position: relative;
+    width: 100%;
+    min-height: 1px;
+    padding-right: 15px;
+    padding-left: 15px
+}
+@media (min-width: 1200px) {
+.col-xl-4 {
+    -webkit-box-flex: 0;
+    -ms-flex: 0 0 33.33333%;
+    flex: 0 0 33.33333%;
+    max-width: 33.33333%    
+    }
+}
+@media (max-width: 767px) {
+    .content-block {
+        padding-left:0!important;
+        padding-right: 0!important;
+        margin-left: 0!important;
+        margin-right: 0!important
+    }
+}
+
+.anime-line{
+    min-height: 344px; 
+    padding: 15px;
+}
+
+.card-body{
+    padding: 0.5rem;
+    font-size: 100%;
+}
+
+.mb-md-0,.my-md-0 {
+    margin-bottom: 0!important
+}
+
+.containerAnime {
+    display: flex;
+    max-width: 1200px;
+    gap: 30px;
+    margin-top: 50px;
+    margin-left: auto;
+    margin-right: auto;
+    margin-bottom: 50px;
+}
+
+.scroll{
+    overflow-y: auto;
+    max-height: 200px;
+}
+
+.border-left-0 {
+    border-left: 0 !important;
+}
+
+.border-bottom-0 {
+    border-bottom: 0 !important;
+}
+
+.border-right-0 {
+    border-right: 0 !important;
+}
+
+.border-top-0 {
+    border-top: 0 !important;
+}
+
+.list-group-item-action {
+    width: 100%;
+    color: #212529;
+    text-align: inherit;
+}
+
+.list-group-item {
+    position: relative;
+    display: block;
+    padding: .75rem 1.25rem;
+    margin-bottom: -1px;
+    background-color: #fff;
+    border: 1px solid rgba(0, 0, 0, .125);
+}
+
+.list-group-item:first-child {
+    border-top-left-radius: 2px;
+    border-top-right-radius: 2px;
+}
+
+.list-group-flush:last-child .list-group-item:last-child {
+    border-bottom: 0
+}
+
+.column {
+    background-color: whitesmoke;
+    width: 50%;
+    padding: 15px;
+    height: auto;
+}
+
+.set-image{
+    height: 250px;
+    width: 200px;
+}
+
+.anime-card{
+    display: inline-block;
+    padding-right: 30px;
+}
+
+.text-nowrap {
+    white-space: nowrap!important
+}
+
+.mb-3,.my-3 {
+    margin-bottom: 1rem!important
+}
+
+.mb-lg-0,.my-lg-0 {
+    margin-bottom: 0!important
+}
+
+.text-center {
+    text-align: center!important
+}
+
+.btn,.btn-link,.dropdown-item,.small,small {
+    font-weight: 400
+}
+
+.btn-primary:hover {
+    color: #fff;
+    background-color: #ff3730;
+    border-color: #ff2b24
+}
+
+.btn{
+    display: inline-block;
+    text-align: center;
+    background-color: #ff5c57;
+    padding: .375rem .75rem;
+    color: #fff;
+    border: none;
+    border-radius: 2px;
+    width: 200px;
+}
+
+.carousel-horizontal-container .tns-ovh {
+    padding: 0 5px!important;
+    margin: 0 -5px!important
+}
+
+.col-12 {
+    -webkit-box-flex: 0;
+    -ms-flex: 0 0 100%;
+    flex: 0 0 100%;
+    max-width: 100%
+}
+
+.d-sm-block {
+    display: block!important
+}
+
+.ml-2per{
+    margin-left: 1.5%;
+    margin-top: 0.5%;
+}
+
+.ml-3,.mx-3 {
+    margin-left: 1rem!important
+}
+
+.mb-2,.my-2 {
+    margin-bottom: .5rem!important
+}
+
+a {
+    color: #ff5c57;
+    text-decoration: none;
+    background-color: transparent;
+}
+
+a:hover{
+    color: #ff130a;
+    text-decoration: underline;
+}
+h1 .h1{
+    margin-bottom: 0;
+    padding-left: 1rem;
+}
+
+.nav-tabs .nav-link {
+    border: 1px solid transparent;
+    border-top-left-radius: 2px;
+    border-top-right-radius: 2px
+}
+
+body {
+    margin: 0;
+    font-family: -apple-system,BlinkMacSystemFont,"Segoe UI",Roboto,"Helvetica Neue",Arial,sans-serif,"Apple Color Emoji","Segoe UI Emoji","Segoe UI Symbol";
+    font-size: 1rem;
+    font-weight: 400;
+    line-height: 1.5;
+    color: #212529;
+    background-color: #e9ebee
+}
+
+@media (min-width: 992px) {
+    .navbar-expand-lg,.navbar-expand-lg .navbar-nav {
+        -webkit-box-orient:horizontal;
+        -webkit-box-direction: normal
+    }
+
+    .navbar-expand-lg {
+        -ms-flex-flow: row nowrap;
+        flex-flow: row nowrap;
+        -webkit-box-pack: start;
+        -ms-flex-pack: start;
+        justify-content: flex-start
+    }
+
+    .navbar-expand-lg .navbar-nav {
+        -ms-flex-direction: row;
+        flex-direction: row
+    }
+
+
+    .navbar-expand-lg .navbar-nav{
+        right: 0;
+        left: auto
+    }
+
+    .navbar-expand-lg .navbar-nav .nav-link {
+        padding-right: .5rem;
+        padding-left: .5rem
+    }
+
+    .navbar-dark .navbar-nav .nav-link:focus,.navbar-dark .navbar-nav .nav-link:hover {
+        color: rgba(255,255,255,.75)
+    }
+
+    .navbar-expand-lg .navbar-collapse {
+        display: flex!important;
+        flex-basis: auto
+    }
+
+    .navbar-expand-lg{
+        display: none
+    }
+
+    .navbar-expand-lg {
+        top: auto;
+        bottom: 100%
+    }
+}
+
+.navbar-collapse{
+    -webkit-box-flex: 1;
+    flex-grow: 1;
+    -webkit-box-align: center;
+    align-items: center;
+}
+
+.nav, .navbar-bar{
+    list-style: none;
+    display: flex;
+    flex-direction: row;
+    text-decoration: none;
+    gap: 20px;
+}
+
+.navbar.navbar-dark{
+    border-bottom: 3px solid;
+}
+
+.py-0{
+    padding-bottom: 0 !important;
+}
+
+.border-primary{
+    border-color: #ff5c57 !important;
+}
+
+.bg-dark{
+    background-color: #343a40 !important;
+}
+
+.position-relative {
+    position: relative!important
+}
+
+.media-body {
+    -ms-flex: 1;
+    flex: 1
+}
+
+.media-body {
+    min-width: 0
+}
+
+.message-typing-container .media-body {
+    background-color: #f1f0f0;
+    padding: 6px 12px;
+    border-radius: 15px;
+    -webkit-box-flex: 0;
+    -ms-flex: 0;
+    flex: 0;
+    min-width: auto
+}
+
+dl,h1,h2,h3,h4,h5,h6,ol,p,pre,ul {
+    margin-top: 0
+}
+
+.h1,.h2,.h3,.h4,.h5,.h6,h1,h2,h3,h4,h5,h6 {
+    margin-bottom: .5rem;
+    font-family: inherit;
+    font-weight: 500;
+    line-height: 1.2;
+    color: inherit
+}   
+
+.h5, h5{
+    font-size: 1.25rem;
+}
+
+.h6,h6 {
+    font-size: 1rem
+}
+
+
+.mb-1,.my-1 {
+    margin-bottom: .25rem!important
+}
+
+.text-gray-dark-5 {
+    color: rgba(0,0,0,.5)
+}
+
+.text-gray-dark-6 {
+    color: rgba(0,0,0,.6)
+}
+
+.font-weight-normal {
+    font-weight: 400!important
+}
+
+@media (min-width: 992px) {
+.navbar-expand-lg .navbar-nav{
+    flex-direction: row;
+    }
+}
+
+p,ul {
+    margin-bottom: 1rem
+}
+
+.message-typing-container .media-left {
+    display: none
+}
+
+.navbar>.container,.navbar>.container-fluid {
+    display: -ms-flexbox;
+    display: flex;
+    -ms-flex-wrap: wrap;
+    flex-wrap: wrap;
+    -webkit-box-align: center;
+    -ms-flex-align: center;
+    align-items: center;
+    -webkit-box-pack: justify;
+    -ms-flex-pack: justify;
+    justify-content: space-between
+}
+
+.dropdown-menu,.nav,.navbar-nav {
+    list-style: none
+}
+
+.row {
+    display: -ms-flexbox;
+    display: flex;
+    -ms-flex-wrap: wrap;
+    flex-wrap: wrap;
+    margin-right: -15px;
+    margin-left: -15px
+}
+
+.text-dark {
+    color: #343a40!important
+}
+
+.text-white{
+    color: #fff;
+}
+
+.pt-3,.py-3 {
+    padding-top: 1rem!important
+}
+
+.text__underline:hover .text__underline__link {
+    border-bottom: 2px solid
+}
+
+.navbar-collapse {
+    -ms-flex-preferred-size: 100%;
+    flex-basis: 100%;
+    -webkit-box-flex: 1;
+    -ms-flex-positive: 1;
+    flex-grow: 1;
+    -ms-flex-align: center;
+    align-items: center
+}
+
+.navbar{
+    position: relative;
+    display: flex;
+    -webkit-box-align: center;
+    align-items: center;
+}
+
+.navbar a {
+    color: #fff;
+    text-decoration: none;
+    margin-left: 20px;
+    font-size: 16px;
+}
+
+.navbar a:hover{
+    color: #989898;
+}
+
+.d-lg-block{
+    display: block !important;
+}
+
+.mr-auto{
+    margin-right: auto !important;
+}
+
+.ml-2{
+    margin-left: .5rem !important;
+}
+
+.w-100{
+    width: 100% !important;
+}
+
+@media (min-width: 1400px) {
+    .container {
+        max-width:1340px
+    }
+}
+
+.navbar-nav {
+    display: flex;
+    -ms-flex-direction: column;
+    flex-direction: column;
+    padding-left: 0;
+    margin-bottom: 0
+}
+
+.navbar-nav .nav-link {
+    padding-right: 0;
+    padding-left: 0
+}
+
+.nav-link, .navbar{
+    padding: .5rem 1rem;
+}
+
+.text-link-gray {
+    color: #212529
+}
+
+.text-link-gray:hover {
+    text-decoration: none;
+    color: #ff5c57
+}
+
+
+#footer {
+    width: 100%;
+    bottom: 0;
+    left: 0;
+    color: #999
+}
+
+#footer a {
+    color: #999;
+    -webkit-transition: all .2s ease-in-out;
+    -o-transition: all .2s ease-in-out;
+    transition: all .2s ease-in-out
+}
+
+.mr-2,.mx-2 {
+    margin-right: .5rem!important
+}
+
+.mr-3,.mx-3 {
+    margin-right: 1rem!important
+}
+
+#footer a:hover {
+    color: #fff
+}
+
+.footer-push {
+    height: 40px;
+    margin-top: 100px
+}
+
+.media {
+    display: flex;
+    -webkit-box-align: start;
+    -ms-flex-align: start;
+    align-items: flex-start
+}
+
+.containerAnime {
+    display: flex;
+    max-width: 1200px;
+    gap: 30px;
+    margin-top: 50px;
+    margin-left: auto;
+    margin-right: auto;
+    margin-bottom: 50px;
+}
+
+.card{
+    width: 30%;
+    background-color: #fff;
+    margin-right: 30px; 
+    border: 1px solid rgba(0, 0,  0, 0.135);
+    border-radius: 2px;
+    background-clip: border-box;
+    word-wrap: break-word;
+}
+
+.card-title {
+    margin-bottom: .75rem
+}
+
+.d-inline-flex {
+    display: -webkit-flex !important;
+    display: -ms-inline-flexbox!important;
+    display: inline-flex!important
+}
+
+.list-group {
+    display: flex;
+    flex-direction: column;
+    padding-left: 0;
+    margin-bottom: 0;
+}
+
+.bb-dashed-1 {
+    border-bottom: 1px dashed;
+}
+
+.img-square {
+    background-size: cover;
+    padding-bottom: 100%;
+    width: 100%;
+    height: 0
+}
+
+.br-50 {
+    border-radius: 50%
+}
+
+.last-update-img {
+    width: 48px
+}
+
+.text-right {
+    text-align: right!important
+}
+
+.align-items-center {
+    align-items: center!important
+}
+
+.cursor-pointer,[role=button] {
+    cursor: pointer
+}
+
+.bg-transparent {
+    background-color: transparent!important
+
+}
+
+.bg-white {
+    background-color: #fff!important
+}
+  </style>
+</head>
+<body>
+    <!--Нав бар-->
+    <div style>
+        <header class="d-none w-100  show">
+            <nav class="navbar navbar-expand-lg navbar-dark bg-dark border-primary py-0">
+                <div class="container">
+                    <div href="#" style="color: #fff; font-size: 25px; font-weight: 700;">AnimeGO</div>
+                    <div class="navbar-collapse">
+                        <ul class="navbar-nav mr-auto">
+                        <li>
+                            <a class="nav-link" href="#" title="Список аниме">Аниме</a>
+                        </li>
+                        <li>
+                            <a class="nav-link" href="#" title="Список аниме">Манга</a>
+                        </li>
+                        <li>
+                            <a class="nav-link" href="#" title="Список аниме">Персонажи</a>
+                        </li>
+                        <li>
+                            <a class="nav-link" href="#" title="Список аниме">Случайное аниме</a>
+                        </li>
+                        </ul>
+
+                        <ul class="navbar-nav"> 
+                        <li>
+                            <a class="nav-link" href="#"><img src="../Images/VK_logo.png" width="17" height="17"> Войти через VK ID</a>
+                        </li>
+                        <li>
+                            <a class="nav-link" href="#"><img src="../Images/Enter.png" width="20" height="20" position="center"> Войти</a>
+                        </li>
+                        <li>
+                            <a class="nav-link" href="#"><img src="../Images/Search.png" width="20" height="20" position="center"></a>
+                        </li>
+                        </ul>
+                    </div>
+                </div>
+            </nav>
+        </header>
+    </div>
+
+    <!--Основа-->
+    <div class>
+        <div>
+            <div style="background-color:  rgba(0, 0, 0, 0.04);">
+                <div class="container">
+                    <div class="row">
+                        <ul class="nav small">
+                            <li class="nav-item">
+                                <a href="#" class="nav-link text-link-gray">Онгоинги</a>
+                            </li>
+                            <li class="nav-item">
+                                <a href="#" class="nav-link text-link-gray">2024 год</a>
+                            </li>
+                            <li class="nav-item">
+                                <a href="#" class="nav-link text-link-gray">2023 год</a>
+                            </li>
+                        </ul>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <!--Описание сайта-->
+        <div class="py-3" style=" border-top: 1px solid rgba(0, 0, 0, 0.135);">
+            <div class="container">
+                <div class="row">
+                    <div class="col-12">
+                        <div class="mb-3">
+                            <h1>AnimeGO - смотреть аниме онлайн бесплатно</h1>
+                        </div>
+                        <div>
+                            <p>
+                                Вот уже много лет японская анимация
+                                пользуется огромным успехом по всему миру,
+                                включая Россию. Эти ленты любят за яркий 
+                                сюжет, оригинальную рисовку и неизменный накал эмоций.</p>
+                            <p>
+                                Многие поклонники любят 
+                                <strong>смотреть аниме онлайн</strong>
+                                , однако для этого часто приходится пользоваться несколькими источниками, поскольку ни один из них нельзя назвать 
+                                универсальным. Но у нас есть отличная новость для любителей аниме! Мы запустили новый проект AnimeGO, посвящённый онлайн-просмотру аниме. Теперь Вам не 
+                                придётся бороздить просторы интернета в поисках любимого тайтла – все лучшие аниме в хорошем качестве уже есть на нашем портале. 
+                                Мы сами очень любим этот жанр и поэтому постарались сделать наш сайт как можно более удобным и захватывающим.
+                            </p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <!--Аниме сезона-->
+        <div class="d-none d-sm-block">
+            <div class="py-3 text__underline" style="background-color: rgba(0, 0, 0, 0.135); border-top: 1px solid rgba(0, 0, 0, 0.135); border-bottom: 1px solid rgba(0, 0, 0, 0.135);">
+                <div class="container">
+                    <div class="row">
+                        <div class="col-12 anime-line">
+                            <div class="h2 mb-3">
+                                <h1 class="text-dark text__underline__link" href="#">Аниме осеннего сезона</h1>
+                                <div class="position-relative anime-card">
+                                    <img class="set-image" src="../Images/Dandadan.jpg">
+                                    <div class="card-body h5">
+                                        <a class="text-center font-weight-normal text-nowrap">Дандадан</a>
+                                    </div>
+                                </div>
+                                <div class="position-relative anime-card h5">
+                                    <img class="set-image" src="../Images/Game_for_Billion.jpg">
+                                    <div class="card-body">
+                                        <a class="text-center font-weight-normal text-nowrap">Игра на триллион</a>
+                                    </div>
+                                </div>
+                                <div class="position-relative anime-card h5">
+                                    <img class="set-image" src="../Images/Tok_ave.jpg">
+                                    <div class="card-body">
+                                        <a class="text-center font-weight-normal text-nowrap">Токийские мстители</a>
+                                    </div>
+                                </div>
+                                <div class="position-relative anime-card h5">
+                                    <img class="set-image" src="../Images/Uzumaki.jpg">
+                                    <div class="card-body">
+                                        <a class="text-center font-weight-normal text-nowrap">Спираль</a>
+                                    </div>
+                                </div>
+                                <div class="position-relative anime-card h5">
+                                    <img class="set-image" src="../Images/Bluejpg.jpg">
+                                    <div class="card-body">
+                                        <a class="text-center font-weight-normal text-nowrap">Синяя шкатулка</a>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <div class="pt-3"></div>
+        <!--Обноваления аниме и расписание, а также недавно вышедшие аниме-->
+        <div class="py-3">
+            <div class="container">
+                <div class="row">
+                    <div class="card mb-3 mb-lg-0  content-block">
+                        <div class="card-header">
+                            <h3 class="mb-0 h4 ml-2per">Обновление аниме</h3>
+                        </div>
+                        <div class="list-group">
+                            <div class="card-header" style="background-color: rgba(0, 0, 0, 0.15);">
+                                <div class="h6 d-flex mr-auto mb-0">
+                                    Сегодня
+                                    <a class="bb-dashed-1 " style="margin-left: auto;">Свернуть</a>
+                                </div>
+                            </div>
+                            <div>
+                                <div class="last-update-item list-group-item border-left-0 border-right-0 border-bottom-0 border-top-0 cursor-pointer">
+                                    <div class="d-flex w-100 align-item-center">
+                                        <div class="media-left last-update-img mr-2">
+                                            <div class="img-square br-50" style="background-image: url(./Images/Naruto.jpg);"></div>
+                                        </div>
+                                        <div class="media-body">
+                                            <div class="d-flex align-items-center">
+                                                <div class="d-flex mr-auto">
+                                                    <span style="font-weight: 600; max-height: 46px; overflow: hidden;"> Наруто </span>
+                                                </div>
+                                            </div>
+                                            <div class="ml-3 text-right">
+                                                <div style="font-weight: 600;"> 920 серия</div>
+                                                <div class="text-gray-dark-6">(Сёнен)</div>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+                                <div class="last-update-item list-group-item border-top-0 cursor-pointer">
+                                    <div class="media w-100 align-item-center">
+                                        <div class="media-left last-update-img mr-2">
+                                            <div class="img-square br-50" style="background-image: url(./Images/Tok_ave.jpg);"></div>
+                                        </div>
+                                        <div class="media-body">
+                                            <div class="d-flex align-items-center">
+                                                <div class="d-flex mr-auto">
+                                                    <span style="font-weight: 600; max-height: 46px; overflow: hidden;"> Токийские мстители </span>
+                                                </div>
+                                            </div>
+                                            <div class="ml-3 text-right">
+                                                <div style="font-weight: 600;">50 серия</div>
+                                                <div class="text-gray-dark-6">(Сёнен)</div>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+                                <div class="last-update-item list-group-item  border-bottom-0 border-top-0 cursor-pointer">
+                                    <div class="media w-100 align-item-center">
+                                        <div class="media-left last-update-img mr-2">
+                                            <div class="img-square br-50" style="background-image: url(./Images/One_p.jpg);"></div>
+                                        </div>
+                                        <div class="media-body">
+                                            <div class="d-flex align-items-center">
+                                                <div class="d-flex mr-auto">
+                                                    <span style="font-weight: 600; max-height: 46px; overflow: hidden;">  Ван-пис </span>
+                                                </div>
+                                            </div>
+                                            <div class="ml-3 text-right">
+                                                <div style="font-weight: 600;">1122 серия</div>
+                                                <div class="text-gray-dark-6">(
+                                                    Драма, Комедия, Приключения, Сёнэн, Супер сила, Фэнтези, Экшен)</div>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="" style="max-height: 30%;">
+                                <div class="last-update-item list-group-item-action border-left-0 border-right-0 border-bottom-0 border-top-0 cursor-pointer"></div>
+                            </div>
+                            <div class="card-header" style="background-color: rgba(0, 0, 0, 0.15);">
+                                <div class="h6 d-flex mr-auto mb-0">
+                                    Вчера
+                                    <a class="bb-dashed-1 " style="margin-left: auto;">Развернть</a>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="card mb-md-0 mb-3 mb-lg-0 content-block">
+                        <div class="card-header">
+                            <h3 class="mb-0 h4 ml-2per">Расписание аниме</h3>
+                        </div>
+                        <div>
+                        <div class="list-group">
+                            <div class="card-header" style="background-color: rgba(0, 0, 0, 0.15);">
+                                <div class="h6 d-flex mr-auto mb-0">
+                                    Понедельник
+                                    <a class="bb-dashed-1" style="margin-left: auto;">Развернуть</a>
+                                </div>
+                            </div>
+                            <div class="card-header" style="background-color: rgba(0, 0, 0, 0.15);">
+                                <div class="h6 d-flex mr-auto mb-0">
+                                    Вторник
+                                    <a class="bb-dashed-1" style="margin-left: auto;">Развернуть</a>
+                                </div>
+                            </div>
+                            <div class="card-header" style="background-color: rgba(0, 0, 0, 0.15);">
+                                <div class="h6 d-flex mr-auto mb-0">
+                                    Среда
+                                    <a class="bb-dashed-1" style="margin-left: auto;">Развернуть</a>
+                                </div>
+                            </div>
+                            <div class="card-header" style="background-color: rgba(0, 0, 0, 0.15);">
+                                <div class="h6 d-flex mr-auto mb-0">
+                                    Четверг
+                                    <a class="bb-dashed-1" style="margin-left: auto;">Развернуть</a>
+                                </div>
+                            </div>
+                            <div class="card-header" style="background-color: rgba(0, 0, 0, 0.15);">
+                                <div class="h6 d-flex mr-auto mb-0">
+                                    Пятница
+                                    <a class="bb-dashed-1" style="margin-left: auto;">Развернуть</a>
+                                </div>
+                            </div>
+                            <div class="card-header" style="background-color: rgba(0, 0, 0, 0.15);">
+                                <div class="h6 d-flex mr-auto mb-0">
+                                    Суббота
+                                    <a class="bb-dashed-1" style="margin-left: auto;">Развернуть</a>
+                                </div>
+                            </div>
+                            <div class="card-header" style="background-color: rgba(0, 0, 0, 0.15);">
+                                <div class="h6 d-flex mr-auto mb-0">
+                                    Воскресенье
+                                    <a class="bb-dashed-1" style="margin-left: auto;">Развернуть</a>
+                                </div>
+                            </div>
+                        </div>
+                        </div>
+                    </div>
+                    <div class="card  mb-3 mb-lg-0 content-block">
+                        <div class="card-header">
+                            <h3 class="mb-0 h4 ml-2per mr-auto d-flex">
+                                Недавно вышедшие аниме
+                                <a class="" style="margin-left: auto;">Все</a>
+                            </h3>
+                            <div class="list-group-item border-bottom-0 border-left-0 border-right-0 border-top-0">
+                                <div class="media">
+                                    <div class="media-left mr-3" style="width: 60px;">
+                                        <img src="../Images/Bluejpg.jpg" style="height: 84px; width: 60px;">
+                                    </div>
+                                    <div class="media-body">
+                                        <div class="h6 font-weight-normal">
+                                            <a href="#" style="font-size: small;"> Голубая шкатулка</a>
+                                        </div>
+                                        <div class="text-gray-dark-5 mb-1" style="font-size: small;">
+                                            ТВ Сериал / 2024
+                                        </div>
+                                        <div class="text-gray-dark-5 mb-1" style="font-size: small;">
+                                            7/25 эпизодов
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="list-group-item border-bottom-0 border-left-0 border-right-0">
+                                <div class="media">
+                                    <div class="media-left mr-3" style="width: 60px;">
+                                        <img src="../Images/Ice_Bones.jpg" style="height: 84px; width: 60px;">
+                                    </div>
+                                    <div class="media-body">
+                                        <div class="h6 font-weight-normal">
+                                            <a href="#" style="font-size: small;"> Ледяные кости</a>
+                                        </div>
+                                        <div class="text-gray-dark-5 mb-1" style="font-size: small;">
+                                            ТВ Сериал / 2024
+                                        </div>
+                                        <div class="text-gray-dark-5 mb-1" style="font-size: small;">
+                                            6/25 эпизодов
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="list-group-item border-bottom-0 border-left-0 border-right-0">
+                                <div class="media">
+                                    <div class="media-left mr-3" style="width: 60px;">
+                                        <img src="../Images/Puniro.jpg" style="height: 84px; width: 60px;">
+                                    </div>
+                                    <div class="media-body">
+                                        <div class="h6 font-weight-normal">
+                                            <a href="#" style="font-size: small;"> Пуниру — милая слизь</a>
+                                        </div>
+                                        <div class="text-gray-dark-5 mb-1" style="font-size: small;">
+                                            ТВ Сериал / 2024
+                                        </div>
+                                        <div class="text-gray-dark-5 mb-1" style="font-size: small;">
+                                            5/12 эпизодов
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="list-group-item border-bottom-0 border-left-0 border-right-0">
+                                <div class="media">
+                                    <div class="media-left mr-3" style="width: 60px;">
+                                        <img src="../Images/Negative_positive_fishman.jpg" style="height: 84px; width: 60px;">
+                                    </div>
+                                    <div class="media-body">
+                                        <div class="h6 font-weight-normal">
+                                            <a href="#" style="font-size: small;"> Негативный позитивный рыбак</a>
+                                        </div>
+                                        <div class="text-gray-dark-5 mb-1" style="font-size: small;">
+                                            ТВ Сериал / 2024
+                                        </div>
+                                        <div class="text-gray-dark-5 mb-1" style="font-size: small;">
+                                            6/? эпизодов
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="list-group-item border-bottom-0 border-left-0 border-right-0">
+                                <div class="media">
+                                    <div class="media-left mr-3" style="width: 60px;">
+                                        <img src="../Images/Love_Murai.jpg" style="height: 84px; width: 60px;">
+                                    </div>
+                                    <div class="media-body">
+                                        <div class="h6 font-weight-normal">
+                                            <a href="#" style="font-size: small;"> Любовь Мураи</a>
+                                        </div>
+                                        <div class="text-gray-dark-5 mb-1" style="font-size: small;">
+                                            ТВ Сериал / 2024
+                                        </div>
+                                        <div class="text-gray-dark-5 mb-1" style="font-size: small;">
+                                            10/? эпизодов
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <!--Новые аниме на сайте и фильтр-->
+        <div class="py-3">
+            <div class="container">
+                <div class="row">
+                    <div class="content-block d-flex" style="width: 100%">
+                        <div class="content px-3 pb-3" style="width: 60%;" id="content">
+                            <div class="card-header row border-bottom-0">
+                                <h1 class="h1">Новые аниме на сайте</h1>
+                            </div>
+                            <div class="row">
+                                <div class="col-12">
+                                    <div class="media">
+                                        <div class="animes-list-item-picture media-left ml-2per position-relative">
+                                            <a href="#"><img src="../Images/Ranma.jpg" style="height: 250px; width: 200px;"></a>
+                                        </div>
+                                        <div class="media-body">
+                                            <div class="h5 font-weight-normal mb-1 ml-2per">
+                                                <a href="#">Ранма 1/2</a>
+                                            </div>
+                                            <div class="text-gray-dark-6 small mb-2 ml-2per">
+                                                <div>Ranma 1/2</div>
+                                            </div>
+                                            <div class="mb-2 ml-2per">
+                                                6/10/2024
+                                            </div>
+                                            <div class="d-none d-sm-block ml-2per">
+                                                Это ремейк культовой романтической комедии
+                                                про жизнь единственного ученика
+                                                и наследника целой школы боевых искусств, Саотомэ Ранмы.<br>
+                                                Всем давно известно, что постичь истинное мастерство можно лишь через
+                                                суровые тренировки в горах, в лесу или, на худой конец, на каких-нибудь
+                                                проклятых китайских источниках.
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+                                <div class="col-12">
+                                    <div class="media">
+                                        <div class=" media-left ml-2per position-relative">
+                                            <a href="#"><img src="../Images/Dandadan.jpg" style="height: 250px; width: 200px;"></a>
+                                        </div>
+                                        <div class="media-body">
+                                            <div class="h5 font-weight-normal mb-1 ml-2per">
+                                                <a href="#">Дандадан</a>
+                                            </div>
+                                            <div class="text-gray-dark-6 small mb-2 ml-2per">
+                                                <div>Dandadan</div>
+                                            </div>
+                                            <div class="mb-2 ml-2per">
+                                                4/10/2024
+                                            </div>
+                                            <div class="d-none d-sm-block ml-2per">
+                                                Старшеклассники Момо Аясэ и Кэн Такакуре самозабвенно изучают паранормальные явления.
+                                                Девушка ищет в нашем мире призраков, а Кэн<br> занят поиском пришельцев.
+                                                В какой-то момент их изыскания пересекаются.<br>
+                                                И, о ужас, мир атакуют и призраки, и пришельцы. Особенно досталось
+                                                Момо, которую похищают пришельцы.
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+                                <div class="col-12">
+                                    <div class="media">
+                                        <div class="media-left ml-2per position-relative">
+                                            <a href="#"><img src="../Images/Bluejpg.jpg" style="height: 250px; width: 200px;"></a>
+                                        </div>
+                                        <div class="media-body">
+                                            <div class="h5 font-weight-normal mb-1 ml-2per">
+                                                <a href="#">Голубая шкатулка</a>
+                                            </div>
+                                            <div class="text-gray-dark-6 small mb-2 ml-2per">
+                                                <div>Blue Box</div>
+                                            </div>
+                                            <div class="mb-2 ml-2per">
+                                                3/10/2024
+                                            </div>
+                                            <div class="d-none d-sm-block ml-2per">
+                                                Увлеченный бадминтоном Тайки Иномата сумел поступить в элитную
+                                                спортивную школу «Эймэй». Чтобы укрепить свои позиции в школьной<br>
+                                                команде, парень тренируется с раннего утра. Но как бы рано он ни<br>
+                                                прибегал в спортзал, он неизменно сталкивался со звездой девичей
+                                                баскетбольной команды Тинацу Кано.
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+                                <div class="col-12">
+                                    <div class="media">
+                                        <div class="media-left ml-2per position-relative">
+                                            <a href="#"><img src="../Images/Mech_arms.jpg" style="height: 250px; width: 200px;"></a>
+                                        </div>
+                                        <div class="media-body">
+                                            <div class="h5 font-weight-normal mb-1 ml-2per">
+                                                <a href="#">Механические руки</a>
+                                            </div>
+                                            <div class="text-gray-dark-6 small mb-2 ml-2per">Mech Arms</div>
+                                            <div class="mb-2 ml-2per">
+                                                4/10/2024
+                                            </div>
+                                            <div class="d-none d-sm-block ml-2per">
+                                                Хикару был обычным школьником, пока череда невероятных событий не <br>
+                                                свела его с Альмой. Это инопланетная сущность, которая выглядит как
+                                                механическая конечность.
+                                                Альма сбежал от группировки, которая охотится  <br> на ему подобных ради
+                                                нечеловеческих способностей. Силы сопротивления поручили этому
+                                                сомнительному дуэту спасти род мехарук, так начинается
+                                                путешествие Хикару и Альмы.
+
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+                                <div class="col-12">
+                                    <div class="media">
+                                        <div class="media-left ml-2per position-relative">
+                                            <a href="#"><img src="../Images/Game_for_Billion.jpg" style="height: 250px; width: 200px;"></a>
+                                        </div>
+                                        <div class="media-body">
+                                            <div class="h5 font-weight-normal mb-1 ml-2per">
+                                                <a href="#">Игра на триллион</a>
+                                            </div>
+                                            <div class="text-gray-dark-6 small mb-2 ml-2per">Game for a trillion</div>
+                                            <div class="mb-2 ml-2per">
+                                                4/10/2024
+                                            </div>
+                                            <div class="d-none d-sm-block ml-2per">
+                                                Хару и Гаку однажды учились в одной средней школе, и после
+                                                университета решили открыть свой собственный бизнес. Ради
+                                                успеха они готовы пойти на <br> всё, а успех для них — триллион долларов!
+                                                Им придётся на полную катушку использовать свои навыки.
+                                                У Хару подвешен язык, он умеет уговаривать и бросать пыль в глаза,
+                                                а необщительный Гаку — гениальный программист. <br> Смогут ли две
+                                                противоположности воплотить свою мечту в жизнь?
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+                                <div class="col-12">
+                                    <div class="media">
+                                        <div class="media-left ml-2per position-relative">
+                                            <a href="#"><img src="../Images/Uzumaki.jpg" style="height: 250px; width: 200px;"></a>
+                                        </div>
+                                        <div class="media-body">
+                                            <div class="h5 font-weight-normal mb-1 ml-2per">
+                                                <a href="#">Спираль</a>
+                                            </div>
+                                            <div class="text-gray-dark-6 small mb-2 ml-2per" >Uzumali</div>
+                                            <div class="mb-2 ml-2per">
+                                                28/09/2024 - 19/10/2024
+                                            </div>
+                                            <div class="d-none d-sm-block ml-2per">
+                                                Умный, очень наблюдательный Сюити Сайто опровергает теорию
+                                                о терроре родного городка монстрами. Его исследование
+                                                источника зла привело к удивительному открытию. Все вокруг
+                                                подчинено сверхъестественному проклятию, связанному со спиралевидными
+                                                знаками удзумаки. Из этих <br> спиралей нет выхода, а человек, получивший
+                                                подобную метку, становится безумцем.
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                        <!-- Красный блок справа (40%) -->
+                        <div class="content-block" style=" margin-left: 15px; width: 40%;">
+                            <div class="card-header bg-dark text-white border-bottom-0 mb-2">
+                                <div class="h5 card-title mb-0 d-flex align-items-center">
+                                    <div class="d-inline-flex">
+                                        <div class="filter">
+                                            <div style="background: rgb(255,92,87);
+                                                background: linear-gradient(90deg, rgba(255,92,87,1) 0%, rgba(52,58,64,1) 100%); padding: 10px 0">
+                                                <p style="font-size: 44px; margin-left: 5%;font-weight: 600">Фильтр</p>
+                                            </div>
+                                            <div style="background-color: rgba(52,58,64,1); display: flex">
+                                                <div class="list-buttons">
+                                                    <p style="font-weight: 6000">Жанры</p>
+                                                    <button href="#" class="button-drob">Выберите жанр</button>
+                                                    <p style="font-weight: 600">Типы</p>
+                                                    <button href="#" class="button-drob">Выберите тип</button>
+                                                    <p style="font-weight: 600">Озвучка</p>
+                                                    <button href="#" class="button-drob">Выберите озвучку</button>
+                                                    <p style="font-weight: 600">Статус</p>
+                                                    <button href="#" class="button-drob">Выберите статус</button>
+                                                    <p style="font-weight: 600">Рейтинг</p>
+                                                    <button href="#" class="button-drob">Выберите рейтинг</button>
+                                                    <div>
+                                                        <input type="checkbox"  style="margin-right: 1px">Можно смотреть онлайн</input>
+                                                    </div>
+                                                </div>
+                                                <style.button-drob
+                                                {
+                                                padding: 5px 10px;
+                                                text-align: left;
+                                                border: 1px solid gray;
+                                                background-color: red;
+                                                }></style.button-drob>
+
+                                                <style.list-buttons
+                                                {
+                                                padding: 20px;
+                                                width: 100%;
+                                                display: flex;
+                                                flex-direction: column;
+                                                }></style.list-buttons>
+
+                                                <style.filter
+                                                {
+                                                margin-left: 50px;
+                                                float: right;
+                                                width: 30%;
+                                                }></style.filter>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="card-body bg-white align-items-center">
+                                <button class="btn btn-primary">
+                                    Искать
+                                </button>
+                            </div>
+                        </div> 
+                    </div>
+                    <div class="text-center mt-3" style="width: 60%;">
+                        <a class="btn btn-primary" href="#">Весь список аниме</a>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <!--Приемущества и текст-->
+        <div class="container py-3">
+            <div><h2>Наши приемущества</h2></div>
+            <p>Мы подготовили для Вас следующие бонусы:</p>
+            <ul>
+            <li class="mb-2">
+                    Огромный выбор <a href="#">аниме мультики онлайн</a>
+                . У нас загружены все популярные и качественные аниме
+                прошлых лет, и наша коллекция регулярно пополняется самыми
+                последними новинками. В каталоге есть как 
+                <a href="#">полнометражные</a>
+                , так и 
+                <a href="#">аниме сериалы</a>
+                , а жанровое разнообразие во многом превосходит другие
+                аналогичные порталы. У нас Вы сможете посмотреть красивые 
+                произведения о любви и дружбе, вере и предательстве, доброте
+                и корысти, и многое другое.
+            </li>
+            <li class="mb-2">
+                    Превосходное качество. Все файлы предоставляются в HD-формате, что позволяет смотреть аниме онлайн в хорошем качестве не только на
+                    персональном компьютере, но и на телевизоре. Благодаря грамотному использованию IT-технологий мы гарантируем Вам комфортный
+                    бесперебойный просмотр любого аниме, максимально имитирующий поход в настоящий кинотеатр. При этом Вы сможете в любой момент 
+                    поставить на паузу или перемотать его до нужного момента.
+            </li>
+            <li class="mb-2">
+                    Удобная навигация. Сайт AnimeGO – это не просто хранилище аниме онлайн, а структурированная фильмотека, в которой очень легко 
+                    ориентироваться. Все файлы отсортированы по жанру, длительности, компании-создателю и другим параметрам. Вы всегда сможете в
+                     считанные минуты найти именно ту ленту, которую ищете.
+            </li>
+            <li class="mb-2">
+                    Минимум рекламы. Как и большинство других сайтов, мы пользуемся рекламой, но в то же время мы позаботились о том, чтобы рекламные 
+                    объявления не мешали вашему просмотру. Ненавязчивая и дозированная реклама – это одно из преимуществ портала AnimeGO, которое уже 
+                    оценили тысячи зрителей.
+            </li>
+            </ul>
+            <p>
+                А ещё мы рады предложить Вам приятный дизайн сайта, быструю работу всех разделов и удобный доступ с различных устройств. 
+                Смотреть аниме онлайн теперь стало ещё приятнее и комфортнее!
+            </p>
+            <h2>На AnimeGO – только бесплатные аниме без регистрации</h2>
+            <div>
+                <p>Самый главный плюс нашего портала – это возможность смотреть все аниме абсолютно бесплатно. Мы считаем, что искусство японской 
+                   мультипликации должно быть доступно каждому, тем более что большинство наших зрителей – представители молодёжи. Плата не взимается ни на
+                   каком этапе пользования сайтом, что делает наш проект по-настоящему удобным для каждого.
+                </p>
+                <p>
+                    Кроме того, пользование сайтом AnimeGO не требует регистрации. Пользователи могут 
+                    <strong>смотреть аниме онлайн бесплатно</strong>
+                    сразу же после захода на сайт.
+                </p>
+                <p>Если Вы любите японскую мультипликацию, 
+                   заходите на AnimeGO. Мы обещаем Вам настоящее удовольствие от просмотра лучших аниме!
+                </p>
+            </div>
+        </div>
+        <!--Пуш наверх-->
+        <div></div>
+        <!--Права сайта-->
+        <footer id="footer">
+            <div class="navbar-dark bg-dark">
+                <div class="container">
+                    <div class="d-flex align-item-center">
+                        <ul class="nav d-none d-sm-flex mr-auto">
+                            <li>
+                                <a href="#"  class="nav-link">Соглашение</a>
+                            </li>
+                            <li>
+                                <a href="#"  class="nav-link">Конфидициальность</a>
+                            </li>
+                            <li>
+                                <a href="#" class="nav-link">Для правообладателей</a>
+                            </li>
+                        </ul>
+                        <div class="d-flex">
+                            <div class="py-2">
+                                @ anime.org
+                                <span class="date">2017-2024</span>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </footer>
+    </div>
+</body>
+</html>
